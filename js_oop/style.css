@@ -1,17 +1,16 @@
-h1 {
-    text-align: center;
-}
 
-.test-buttons {
-    display: flex;
-    text-align: center;
+.header{
+	color: blue;
+	font-weight: bold;
 }
-
-.button-container {
-    display: inline-block;
-    margin: 15px auto;
+.message {
+	color: green;
 }
-
-.button-container button {
-    margin: 0 15px;
+.warning {
+	color: black;
+	background-color: orange;
+}
+.error{
+	color: black;
+	background-color: red;
 }
