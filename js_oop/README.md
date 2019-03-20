@@ -1,4 +1,4 @@
-# JS OOP Prototype
+# JS OOP Prototype - Basic OOP 
 
 ### Featureset 1 - Random Number Generator
 - use the file exercise/randomgenerator.js
