@@ -17,17 +17,9 @@ function getData() {
             console.log('2) AJAX Success function called, with the following result:', result),
                 global_result = result;
 
-            var firstMovieThirdImage = result.feed.entry[0]['im:image'][2].label;
             console.log('firstMovieThirdImage: ', firstMovieThirdImage);
 
-            for (var movieImages = 0; movieImages < result.feed.entry.length; movieImages++) {
-                var thirdMovieImage = result.feed.entry[movieImages]['im:image'][2].label;
-                var image = $('<img>').attr('src', thirdMovieImage);
-                var title = result.feed.entry[movieImages].title.label;
-                console.log("grab the title: ", title);
-                var text = $('<p>').text(title);
-                 $('#main').append(image);
-                 $('#main').append(text);
+
             }
         }
         
